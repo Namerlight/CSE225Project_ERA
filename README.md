@@ -6,4 +6,6 @@ Essentially, an app to provide the user with tutorials and reference material fo
 
 Credits:
 Shadab Hafiz Choudhury
+
 Ishrat Jahan Ananya
+
