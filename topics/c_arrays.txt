@@ -1,0 +1,46 @@
+			-----Arrays-----
+
+
+	An array is a collection of data that holds fixed number of values of same type. For example: if you want to store marks 
+	of 100 students, you can create an array for it.
+
+	float marks[100];
+	The size and type of arrays cannot be changed after its declaration.
+
+	Arrays are of two types:
+
+		One-dimensional arrays
+		Multidimensional arrays 
+
+
+		Example: C Arrays
+
+// Program to find the average of n (n < 10) numbers using arrays
+
+#include <stdio.h>
+int main()
+{
+     int marks[10], i, n, sum = 0, average;
+     printf("Enter n: ");
+     scanf("%d", &n);
+     for(i=0; i<n; ++i)
+     {
+          printf("Enter number%d: ",i+1);
+          scanf("%d", &marks[i]);
+          sum += marks[i];
+     }
+     average = sum/n;
+
+     printf("Average = %d", average);
+
+     return 0;
+}
+Output: 
+
+Enter n: 5
+Enter number1: 45
+Enter number2: 35
+Enter number3: 38
+Enter number4: 31
+Enter number5: 49
+Average = 39

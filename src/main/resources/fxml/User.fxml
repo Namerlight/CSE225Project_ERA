@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="388.0" prefWidth="637.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.era.era.User">
+    <children>
+      <Button fx:id="button111" layoutX="43.0" layoutY="294.0" onAction="#onBack" prefHeight="29.0" prefWidth="80.0" style="-fx-background-color: #2C3E50;" text="&lt;─ Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Button>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="251.0" layoutY="118.0" prefHeight="25.0" prefWidth="135.0" text="Change Password?" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font></Label>
+      <PasswordField fx:id="currentpass" alignment="CENTER" layoutX="329.0" layoutY="59.0" prefHeight="30.0" prefWidth="170.0" promptText="Current Password" style="-fx-background-color: #C5EFF7;" />
+      <PasswordField fx:id="newpass" alignment="CENTER" layoutX="191.0" layoutY="143.0" prefHeight="30.0" prefWidth="256.0" promptText="New Password" style="-fx-background-color: #C5EFF7;" />
+      <Button layoutX="191.0" layoutY="228.0" mnemonicParsing="false" onAction="#onPasswordChange" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: #2C3E50;" text="Change Password" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Button>
+      <Label fx:id="change" alignment="CENTER" contentDisplay="CENTER" layoutX="158.0" layoutY="280.0" prefHeight="57.0" prefWidth="321.0" textAlignment="CENTER" />
+      <PasswordField fx:id="confirmpass" alignment="CENTER" layoutX="191.0" layoutY="179.0" prefHeight="30.0" prefWidth="256.0" promptText="Confirm New Password" style="-fx-background-color: #C5EFF7;" />
+      <Button layoutX="351.0" layoutY="228.0" mnemonicParsing="false" onAction="#onDeleteUser" prefHeight="29.0" prefWidth="96.0" style="-fx-background-color: #2C3E50;" text="Delete User" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Button>
+      <TextField fx:id="currentuser" alignment="CENTER" layoutX="141.0" layoutY="59.0" prefHeight="30.0" prefWidth="170.0" promptText="Current Username" style="-fx-background-color: #C5EFF7;" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="388.0" prefWidth="637.0" style="-fx-background-color: #2C3E50;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.era.era.java_topics">
+    <children>
+      <Button fx:id="button111" layoutX="43.0" layoutY="319.0" onAction="#onBack" prefHeight="40.0" prefWidth="160.0" style="-fx-background-color: #A4DBB3;" text="&lt;─ Back" textFill="#fcf8f8">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="button1111" layoutX="43.0" layoutY="35.0" onAction="#onWhatIsJava" prefHeight="40.0" prefWidth="160.0" style="-fx-background-color: #A4DBB3;" text="What is Java?" textFill="#fcf8f8">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="button11111" layoutX="43.0" layoutY="83.0" onAction="#onHelloWorld" prefHeight="40.0" prefWidth="160.0" style="-fx-background-color: #A4DBB3;" text="Hello World" textFill="#fcf8f8">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="button111111" layoutX="43.0" layoutY="132.0" onAction="#onJvmBasics" prefHeight="40.0" prefWidth="160.0" style="-fx-background-color: #A4DBB3;" text="JVM Basics" textFill="#fcf8f8">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="button1111111" layoutX="43.0" layoutY="180.0" onAction="#onInterface" prefHeight="40.0" prefWidth="160.0" style="-fx-background-color: #A4DBB3;" text="Interface" textFill="#fcf8f8">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <AnchorPane layoutX="265.0" prefHeight="399.0" prefWidth="372.0" style="-fx-background-color: grey;">
+         <children>
+            <ImageView fitHeight="248.0" fitWidth="243.0" layoutX="65.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Java-logo.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+    </children>
+</AnchorPane>
