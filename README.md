@@ -1,4 +1,4 @@
-# CSE225Project_ERA
+# Educational Resource Archive
 
 For NSU CSE215 (Java) Project. Built in Maven using Java and JavaFX. 
 
